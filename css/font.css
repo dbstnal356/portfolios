@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Abhaya Libre';
+    src: url('../font/AbhayaLibre-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Abhaya Libre';
+    src: url('../font/AbhayaLibre-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Abhaya Libre';
+    src: url('../font/AbhayaLibre-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Abhaya Libre';
+    src: url('../font/AbhayaLibre-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Abhaya Libre';
+    src: url('../font/AbhayaLibre-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Calibri';
+    src: url('../font/AnyConv.com__calibri-regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Calibri';
+    src: url('../font/AnyConv.com__calibri-bold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
