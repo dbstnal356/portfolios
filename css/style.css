@@ -100,17 +100,26 @@ body.show-main {
 header {
   font-family: "42dot Sans", sans-serif;
   font-size: 30px;
-  width: 1750px;
+/*   width: 1750px;
+  margin: 0 auto; */
   height: 70px;
+  /* background: #ccc; */
+  position: fixed;
+  top: 16px;
+  left: 84px;
+  z-index: 10;
 }
-
+header.on{
+  color: #fff;
+}
 header ul {
   display: flex;
   align-items: center;
-  justify-content: left;
+  height: 100%;
+/*   justify-content: left; */
   gap: 70px;
-  padding-left: 95px;
-  padding-top: 60px;
+/*   padding-left: 95px;
+  padding-top: 60px; */
 }
 
 main {

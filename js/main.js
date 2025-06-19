@@ -241,6 +241,7 @@ $(function () {
     emailjs.sendForm('service_4efhpyr', 'template_jdcdrf5', this)
       .then(function () {
         alert('메일이 성공적으로 발송되었습니다!');
+        document.querySelector("#contact-form").reset(); // 폼 리셋
       }, function (error) {
         alert('메일 발송 실패... ' + JSON.stringify(error));
       });
