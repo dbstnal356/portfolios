@@ -100,6 +100,27 @@ $(function () {
 
 
 
+  //헤더 스크롤시 흰색글씨 변경
+/* 
+      const header = document.querySelector("header");
+      const target = document.querySelector("#project");
+
+      if (!header || !target) return;
+
+      const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            header.classList.add("on");
+            observer.disconnect(); // ✅ 이후 감지 종료 → .on 유지
+          }
+        });
+      }, {
+        threshold: 0.3
+      });
+
+      observer.observe(target); */
+
+
 
 
   // 🔸 텍스트 등장/퇴장 애니메이션
