@@ -1,0 +1,257 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Beau+Rivage&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=42dot+Sans:wght@300..800&family=Alkatra:wght@400..700&family=Protest+Riot&family=Raleway:ital,wght@0,100..900;1,100..900&family=Righteous&display=swap');
+
+/* 
+font-family: "Barlow Condensed", sans-serif;
+font-family: "Beau Rivage", cursive;
+ font-family: "Alkatra", system-ui;
+  font-family: "Raleway", sans-serif;
+*/
+/*  폰트, 변수선언(컬러) */
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #424A5D;
+    --main-dd: #DDCFCF;
+    --w-color: #fff;
+}
+
+.inner {
+    width: 1646px;
+    /* 1360px */
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    background: #fff;
+}
+
+header .inner {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 100px;
+}
+
+.logo {
+    /* padding-left: 120px; */
+
+}
+
+.all_right {
+    display: flex;
+    gap: 70px;
+    height: 100%;
+    align-items: center;
+}
+
+header nav {
+    font-family: "Barlow Condensed", sans-serif;
+    /*     margin-right: 110px; */
+}
+
+header nav ul.gnb {
+    gap: 60px;
+    display: flex;
+}
+
+header nav ul.gnb li {
+    font-size: 25px;
+    position: relative;
+    min-width: 136px;
+    text-align: center;
+}
+
+ul.gnb>li>a {
+    display: block;
+    height: 100px;
+    line-height: 100px;
+    position: relative;
+    /* height: ; */
+}
+
+ul.gnb>li>a::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: #4E5E86;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: scale(0);
+    transition: .6s;
+}
+
+header nav ul.gnb>li:hover>a::before {
+    transform: scale(1);
+}
+
+ul.gnb>li>ul.sub {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 100px;
+    background: #fff;
+    text-align: center;
+}
+
+ul.gnb>li>ul.sub {
+    display: none;
+}
+
+ul.gnb>li:hover>ul.sub {
+    display: block;
+}
+
+ul.gnb>li>ul.sub li {
+    height: 60px;
+    font-size: 19px;
+    /*     height: 40px;  */
+}
+
+ul.gnb>li>ul.sub li a {
+    height: 100%;
+    line-height: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid #eee;
+}
+
+ul.gnb>li>ul.sub li a span {
+    display: block;
+    font-size: 17px;
+}
+
+ul.gnb>li>ul.sub li:hover {
+    /*  font-weight: 600; */
+    color: #4E5E86;
+    /* background: #BDACA4; */
+}
+
+
+
+
+header nav ul.gnb>li.re>a {
+    color: #A13030;
+}
+
+header nav ul.gnb>li.us>a {
+    color: #64759E;
+}
+
+
+header .right {
+    /*     position: absolute;
+    right: 70px;
+    top: 50%;
+    transform: translateY(-50%); */
+    display: flex;
+    gap: 50px;
+}
+
+
+footer {
+    width: 100%;
+    height: 881px;
+    background: #262626;
+}
+
+footer .inner {
+    height: 100%;
+    color: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+footer .inner .top {
+    height: 460px;
+    position: relative;
+}
+
+footer .inner .top .arrow-wrapper {
+    position: absolute;
+    right: 400px;
+    bottom: -40px;
+}
+
+footer .inner .arrow-wrapper {
+    display: flex;
+    justify-content: center;
+    /* 수평 중앙 정렬 */
+    align-items: center;
+    /* background: #424A5D; */
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+footer .inner h3 {
+    color: #FFF;
+    font-family: "Barlow Condensed";
+    font-size: 80px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    /* 수평 중앙 정렬 */
+    align-items: center;
+    /* 수직 중앙 정렬 */
+    height: 30vh;
+    /* 부모 요소의 높이를 지정해야 함 */
+    /* background: url(../img/Vector10.png) no-repeat center/center; */
+
+}
+
+footer .inner span {
+    color: var(--w-color);
+    font-family: "Inter";
+    font-size: 13px;
+    color: #D9D9D9;
+    /* vertical-align: bottom; */
+    display: flex;
+    justify-self: end;
+    line-height: 1.2;
+    /* 글자 크기의 1.5배 */
+
+
+}
+
+footer .inner p.tel {
+    display: flex;
+    justify-self: start;
+    line-height: 1.6;
+}
+
+footer .inner p.tx {
+    line-height: 1.6;
+    border-bottom: 1px solid #ccc;
+    width: 310px;
+}
+
+footer .inner p.met {
+    display: flex;
+    justify-self: center;
+    margin-right: -450px;
+    line-height: 3.5;
+    width: 370px;
+
+}
