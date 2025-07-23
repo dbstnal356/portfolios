@@ -663,6 +663,10 @@ section.about_me .guide-right2 {
   color: #ae716d;
 }
 
+.project_text h2.txt_col5 {
+  color: #424A5D;
+}
+
 .project_text h2.txt_col2 {
   color: #FFD59A;
 }
@@ -759,6 +763,10 @@ section.about_me .guide-right2 {
 
 #text2 .txt_box .btn_box {
   /* background-color: rebeccapurple */
+}
+#text5 .txt_box .btn_box:hover {
+  background-color: #424A5D;
+  color: #fff;
 }
 
 #text2 .txt_box .btn_box:hover {
