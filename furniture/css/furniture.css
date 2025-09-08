@@ -523,7 +523,7 @@ section.con6 {
   padding-bottom: 70px;
 }
 section.con6 .brand_img {
-  background: url(./img/con6_img1.png) center / cover no-repeat;
+  background: url(../img/con6_img1.png) center / cover no-repeat;
   aspect-ratio: 1580 / 410;
   width: 100%;
   display: flex;
