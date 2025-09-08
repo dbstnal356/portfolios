@@ -659,6 +659,10 @@ section.about_me .guide-right2 {
   margin: 0;
 }
 
+.project_text h2.txt_col6 {
+  color: #af9d8b;
+}
+
 .project_text h2.txt_col1 {
   color: #ae716d;
 }
@@ -730,6 +734,19 @@ section.about_me .guide-right2 {
   transition: color 0.4s ease;
 
 }
+.project_text .txt_box .btn_box2 {
+  display: inline-flex;
+  width: 900px;
+  height: 65px;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  color: #333;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  margin-right: 10px;
+
+}
 
 
 .project_text .txt_box .btn_box {
@@ -754,6 +771,10 @@ section.about_me .guide-right2 {
 
 #text1 .txt_box .btn_box {
   /* background-color: red; */
+}
+#text6 .txt_box .btn_box2:hover {
+  background-color: #675F59;
+  color: #fff;
 }
 
 #text1 .txt_box .btn_box:hover {
