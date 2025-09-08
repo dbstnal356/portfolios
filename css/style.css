@@ -734,6 +734,7 @@ section.about_me .guide-right2 {
   transition: color 0.4s ease;
 
 }
+
 .project_text .txt_box .btn_box2 {
   display: inline-flex;
   width: 900px;
@@ -747,7 +748,6 @@ section.about_me .guide-right2 {
   margin-right: 10px;
 
 }
-
 
 .project_text .txt_box .btn_box {
   display: inline-flex;
